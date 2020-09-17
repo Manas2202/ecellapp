@@ -53,7 +53,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        //initializing objects of different Views with their respected id...
+        //initializing objects of different Views with their respected id....
         emailText = (EditText) findViewById(R.id.login_email);
         passwordText = (EditText) findViewById(R.id.login_password);
         loginButton = (Button) findViewById(R.id.loginButton);

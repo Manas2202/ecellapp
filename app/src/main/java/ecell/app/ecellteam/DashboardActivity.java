@@ -125,7 +125,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
     }
 
 
-    /*-----------------------Getting UserDepatment--------------------*/
+    /*-----------------------Getting UserDepatment----------------------*/
     private void getUserDept() {
         rootRef.child(userId).addValueEventListener(new ValueEventListener() {
             @Override

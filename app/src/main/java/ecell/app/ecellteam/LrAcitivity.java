@@ -22,7 +22,7 @@ public class LrAcitivity extends AppCompatActivity {
         loginBtn = (Button) findViewById(R.id.loginButton);
         registerBtn = (Button) findViewById(R.id.registerButton);
 
-        //Setting OnClickListener for both buttons
+        //Setting OnClickListener for login button
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -30,6 +30,7 @@ public class LrAcitivity extends AppCompatActivity {
             }
         });
 
+        //Setting OnClickListener for register button
         registerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

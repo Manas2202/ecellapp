@@ -82,7 +82,7 @@
         android:layout_height="45dp"
         android:text="Create New Account"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="11dp"
         android:background="@drawable/button_design"
         android:layout_below="@+id/loginButton"
         android:textColor="@android:color/white"

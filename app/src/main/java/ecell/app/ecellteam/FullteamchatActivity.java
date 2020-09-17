@@ -254,10 +254,10 @@ public class FullteamchatActivity<User> extends AppCompatActivity {
     //initializing objects
     private void InitializeFields() {
 
-        //  mToolBar = (Toolbar) findViewById(R.id.group_chat_bar_layout);
-        // setSupportActionBar(mToolBar);
+         mToolBar = (Toolbar) findViewById(R.id.group_chat_bar_layout);
+         setSupportActionBar(mToolBar);
         //setting name of group chat
-        //getSupportActionBar().setTitle(groupChatName);
+        getSupportActionBar().setTitle(groupChatName);
 
         layout = (LinearLayout)findViewById(R.id.layout1);
         sendButton = (ImageView)findViewById(R.id.sendButton);

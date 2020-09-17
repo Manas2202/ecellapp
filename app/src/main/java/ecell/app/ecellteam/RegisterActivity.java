@@ -52,7 +52,7 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
             "(?=.*[@#$%^&+=])" +      //at least 1 special character
             "(?=.*[0-9])" +           //at least 1 digit
             "(?=\\S+$)" +             //no white spaces
-            ".{6,20}" +               //must be at this range
+            ".{6,20}" +               //must be in this range
             "$");                     //this should be the end of the password
 
 
