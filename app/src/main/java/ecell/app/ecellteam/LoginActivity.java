@@ -26,7 +26,7 @@ import java.util.regex.Pattern;
 public class LoginActivity extends AppCompatActivity {
 
 
-    //making objects of the following Views
+    //making objects of the following Views..
     private EditText emailText;
     private EditText passwordText;
     private Button loginButton;
