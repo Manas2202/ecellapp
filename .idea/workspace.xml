@@ -27,15 +27,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ecell/app/ecellteam/DashboardActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ecell/app/ecellteam/DashboardActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ecell/app/ecellteam/DeptchatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ecell/app/ecellteam/DeptchatActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ecell/app/ecellteam/FullteamchatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ecell/app/ecellteam/FullteamchatActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_design.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_design.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fullteamchat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fullteamchat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_lr_acitivity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_lr_acitivity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ecell/app/ecellteam/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ecell/app/ecellteam/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ecell/app/ecellteam/LrAcitivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ecell/app/ecellteam/LrAcitivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ecell/app/ecellteam/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ecell/app/ecellteam/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_deptchat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_deptchat.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600345481329</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="DashboardActivity java file">
+      <created>1600347354951</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600347354951</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Full Project(Manas Mishra)">
+      <created>1600347744793</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600347744793</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -241,7 +251,9 @@
     <MESSAGE value="added Read More activity and sharing function" />
     <MESSAGE value="gradle changes" />
     <MESSAGE value="manas main" />
-    <option name="LAST_COMMIT_MESSAGE" value="manas main" />
+    <MESSAGE value="DashboardActivity java file" />
+    <MESSAGE value="Full Project(Manas Mishra)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full Project(Manas Mishra)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="203" y="106" width="950" height="537" key="#PSD" timestamp="1600018603893">
@@ -256,10 +268,10 @@
       <screen x="0" y="27" width="1366" height="688" />
     </state>
     <state x="266" y="129" width="824" height="491" key="AndroidCreateResourceFileDialog/0.27.1366.688@0.27.1366.688" timestamp="1600100475840" />
-    <state x="325" y="0" width="777" height="688" key="CommitChangelistDialog2" timestamp="1600345479067">
+    <state x="325" y="0" width="777" height="688" key="CommitChangelistDialog2" timestamp="1600347741540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="325" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600345479067" />
+    <state x="325" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600347741540" />
     <state x="289" y="27" width="777" height="688" key="CommitChangelistDialog2/0.27.1366.688@0.27.1366.688" timestamp="1600150328251" />
     <state x="124" y="129" width="501" height="491" key="FileChooserDialogImpl" timestamp="1600007767805">
       <screen x="0" y="27" width="1366" height="688" />
@@ -301,10 +313,10 @@
       <screen x="0" y="27" width="1366" height="688" />
     </state>
     <state x="429" y="64" width="498" height="621" key="RollbackChangesDialog/0.27.1366.688@0.27.1366.688" timestamp="1600149858771" />
-    <state x="313" y="96" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600345492667">
+    <state x="313" y="96" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600347761506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="313" y="96" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600345492667" />
+    <state x="313" y="96" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600347761506" />
     <state x="278" y="107" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.688@0.27.1366.688" timestamp="1600150352911" />
     <state x="100" y="127" width="1166" height="485" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600332742543">
       <screen x="0" y="27" width="1366" height="685" />

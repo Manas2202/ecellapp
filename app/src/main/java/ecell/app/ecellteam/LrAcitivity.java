@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class LrAcitivity extends AppCompatActivity {
 
+    //Making Objects Of Buttons
     private Button loginBtn;
     private Button registerBtn;
 
@@ -17,9 +18,11 @@ public class LrAcitivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lr_acitivity);
 
+        //initializing objects
         loginBtn = (Button) findViewById(R.id.loginButton);
         registerBtn = (Button) findViewById(R.id.registerButton);
 
+        //Setting OnClickListener for both buttons
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

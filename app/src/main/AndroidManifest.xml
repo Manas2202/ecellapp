@@ -22,26 +22,24 @@
         <activity android:name=".AnnouncementActivity" />
         <activity android:name=".DeptchatActivity" />
         <activity android:name=".FullteamchatActivity" />
-        <activity
-            android:name=".DashboardActivity"
-            android:theme="@style/DashboradTheme" />
+        <activity android:name=".DashboardActivity"
+            android:theme="@style/DashboradTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".LrAcitivity" />
         <activity android:name=".SplashActivity" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-
-
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="ecell.app.ecellteam.provider"
